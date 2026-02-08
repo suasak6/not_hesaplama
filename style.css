@@ -1,9 +1,6 @@
-* {
-    box-sizing: border-box;
-}
 
 body {
-    margin: 0;
+
     font-family: Arial, sans-serif;
     background-color: #be9af1;
     padding: 100px;
@@ -81,26 +78,5 @@ button {
     
 }
 
-.container {
-    overflow-x: hidden ;
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-}
 
-@media (max-width: 600px) {
-    input {
-        width: 100%;
-        margin-bottom: 10px;
-        font-size: 16px;
-    }
 
-    button {
-        width: 100%;
-        font-size: 18px;
-    }
-
-    .buton-alan {
-        flex-direction: column;
-    }
-}
