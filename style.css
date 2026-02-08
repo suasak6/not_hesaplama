@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #be9af1;
+    padding: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#sinavlar {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.sinav {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sinav input {
+    width: 100px;
+    padding: 5px;
+}
+
+.buton-alan {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+#sonuc {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+
+    justify-content: center;
+    align-items: center;
+}
+
+#popup-icerik {
+    background: rgb(225, 191, 238);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.arka-plan {
+    height:250px;
+    background-image: url("foto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    margin-top: 40px;
+    
+}
