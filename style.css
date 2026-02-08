@@ -1,4 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #be9af1;
     padding: 100px;
@@ -77,6 +82,7 @@ button {
 }
 
 .container {
+    overflow-x: hidden ;
     max-width: 600px;
     margin: auto;
     padding: 20px;
