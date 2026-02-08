@@ -7,7 +7,7 @@ function sinavEkle() {
     yeniDiv.innerHTML = `
         Not: <input type="number" class="not">
         Oran: <input type="number" class="oran">
-        <button onclick="sinavSil(this)">Sil</button>
+        <button class="sil-btn" onclick="sinavSil(this)">Sil</button>
     `;
 
     sinavlarDiv.appendChild(yeniDiv);
