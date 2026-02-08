@@ -75,3 +75,9 @@ button {
     margin-top: 40px;
     
 }
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
